@@ -1,0 +1,22 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 2em 2em;
+
+    /* transition: all 1s ease; /* "all" means everything it will be animate */
+    transition: background-color 1s ease, width 2s ease, height 0.5s;
+    /* transition-delay: 2s; /* transition with a delay when you pass the mouse over the object */
+}
+
+/* CSS Tricks Transitions */
+/* https://css-tricks.com/almanac/properties/t/transition/ */
+
+.box:hover {
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+
+    /* transform: rotate(40deg); /* rotate the object */
+}
